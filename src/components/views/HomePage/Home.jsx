@@ -4,6 +4,7 @@ import {API_KEY,API_URL_MOVIE} from "../../config/API.js"
 import NavBar from "../NavBar/NavBar.jsx";
 import Card from "../Cards/Card.jsx";
 import { Row } from "antd";
+import "./home.css"
 
 
 export default function Home(){
@@ -33,11 +34,14 @@ export default function Home(){
     return (
         <div>
             <NavBar isLoggedIn={true}></NavBar>
-            <Row gutter={[16,16]}>
+            {/* <Row gutter={[16,16]}>
                 <React.Fragment key={4}>
                     {cardsArray}
                 </React.Fragment>
-            </Row>
+            </Row> */}
+            <div className="home">
+                {cardsArray}
+            </div>
         </div>
     )
 

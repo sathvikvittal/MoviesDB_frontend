@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { Col } from 'antd';
+import "./card.css"
 
 function Cards(props) {
 
@@ -18,15 +19,23 @@ function Cards(props) {
         )
     } else {
         return (
-            <Col key={key} lg={6} md={8} xs={24}>
+            <div className='Grid'>
+                {/* <a href=""></a>
+                <img src="" alt='Image'></img> */}
+                <h1>Shit</h1>
+            </div>
+        )
+    }
+
+    
+   /* alternate
+    <Col key={key} lg={6} md={8} xs={24}>
                 <div style={{ position: 'relative' }}>
                     <a href={`/movie/${movieId}`} >
                         <img style={{ width: '80%', height: '50%' }} alt="Damns" src="http://image.tmdb.org/t/p/w154/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg" />
                     </a>
                 </div>
-            </Col>
-        )
-    }
+            </Col> */
 
 }
 
