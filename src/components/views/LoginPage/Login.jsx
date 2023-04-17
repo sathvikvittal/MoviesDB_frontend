@@ -10,9 +10,9 @@ export default function Login() {
                 <form>
                     <div>
                         <h1>Sign in</h1>
-                        <input type="text" placeholder="Username or Email" style={{border:"1px sloid black"}}></input>
+                        <input type="text" placeholder="Username" name="username" style={{border:"1px sloid black"}}></input>
                         <br/>
-                        <input type="text" placeholder="Password" ></input>
+                        <input type="text" placeholder="Password" name="password"></input>
                         <br/><br/>
                         <button type="submit" className="submit-button">Sign-in</button>
                     </div>
