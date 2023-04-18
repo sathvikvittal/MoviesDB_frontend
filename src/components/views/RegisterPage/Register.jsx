@@ -7,6 +7,7 @@ export default function Register(){
         <div>
             <NavBar isLoggedIn={true} />
             <form>
+                <h1>Register</h1>
                 <label for="firstName">Firstname</label>
                 <br/>
                 <input type="text" placeholder="First Name" name="firstName"></input>
