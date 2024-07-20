@@ -17,8 +17,6 @@ This is an IMDB clone. This repository only includes frontend.
 npm install
  ```
 
-3. Running the project: 
-
 ## Usage
 To run the project, use the following command:
 ```bash
